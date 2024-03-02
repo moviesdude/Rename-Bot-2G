@@ -2,22 +2,22 @@ import os, time
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "19902008")
+    API_HASH  = os.environ.get("API_HASH", "d973fa8af375787c85dd6d2dfac94d7e")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6102180205:AAEKLprCQhVe5yxZkjP4-zMLrYj1C653TEo") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Renamebot")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://moviesdudebot:MDbots@cluster0.y4gwugw.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = int(os.environ.get("ADMIN", ""))
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/9acca333738f41eba89f8.jpg")
+    ADMIN = int(os.environ.get("ADMIN", "5204439926"))
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "chutti_TV_Tamil_HD") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002088535757"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
