@@ -16,7 +16,7 @@ class Config(object):
     ADMIN = int(os.environ.get("ADMIN", "5204439926"))
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "chutti_TV_Tamil_HD") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Team_MDL") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002088535757"))
 
     # wes response configuration     
@@ -26,7 +26,7 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hello {} 👋 
+    START_TXT = """<b>Hello {} 👋 
 
 ➻ This Is An Advanced And Yet Powerful Rename Bot.
 
@@ -36,7 +36,9 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @Team_MDL"""
+➻ Denote For Live Bot : `thriudev04@okicici`.
+
+Bot Is Made By : @Team_MDL</b>"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
