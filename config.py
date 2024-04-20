@@ -2,8 +2,8 @@ import os, time
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "19902008")
-    API_HASH  = os.environ.get("API_HASH", "d973fa8af375787c85dd6d2dfac94d7e")
+    API_ID    = os.environ.get("API_ID", "16229284")
+    API_HASH  = os.environ.get("API_HASH", "ebd1fead3cc15343bea10b5c164165ba")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6102180205:AAEKLprCQhVe5yxZkjP4-zMLrYj1C653TEo") 
    
     # database config
@@ -13,7 +13,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/9acca333738f41eba89f8.jpg")
-    ADMIN = int(os.environ.get("ADMIN", "5204439926"))
+    ADMIN = int(os.environ.get("ADMIN", "1103137195"))
 
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Team_MDL") 
