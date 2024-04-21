@@ -4,10 +4,10 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "16229284")
     API_HASH  = os.environ.get("API_HASH", "ebd1fead3cc15343bea10b5c164165ba")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6102180205:AAEKLprCQhVe5yxZkjP4-zMLrYj1C653TEo") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7148650828:AAHyU0A18ubv1l-3RiFCDR33E3XNKEKKxpo") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Renamebot")     
+    DB_NAME = os.environ.get("DB_NAME","Renamebot_Render")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://moviesdudebot:MDbots@cluster0.y4gwugw.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
@@ -17,7 +17,7 @@ class Config(object):
 
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Team_MDL") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002088535757"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002023083749"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
